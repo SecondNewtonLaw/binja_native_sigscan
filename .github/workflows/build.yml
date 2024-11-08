@@ -20,14 +20,6 @@ jobs:
             os: windows-2019,
             name: windows
           }
-        - {
-            os: macos-13,
-            name: macos
-          }
-        - {
-            os: ubuntu-22.04,
-            name: ubuntu
-          }
         version:
         #- name: v3.3.3996
         #  patch-file: ../.github/workflows/3.5_0001-Support-building-plugins-without-an-install.patch
